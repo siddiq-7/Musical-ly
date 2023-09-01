@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Raleway:ital,wght@0,300;1,300&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color:white;
+
+}
+.brand img{
+    width:50px;
+    padding: 0 8px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding: 0 12px;
+
+}
+.container{
+    min-height : 72vh;
+    background-color: black;
+    color:white;
+    font-family: 'Handjet', cursive;
+    display: flex;
+    margin: 23px auto;
+    width:80%;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url(bg.jpg);
+
+}
+.bottom{
+    position:sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:130px;
+    background-color: black;
+    color: white;
+    bottom:0;
+    flex-direction: column;
+    margin: 12px 0;
+}
+#myProgressBar{
+    width : 67vw;
+
+  
+}
+.icons{
+    margin-top : 10px;
+}
+.icons i {
+    cursor : pointer;
+}
+.songItem{
+   height:50px;
+   display: flex;
+   background-color: white;
+   color:black;
+   /* width:95%; */
+   margin:12px 0;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 34px;
+
+}
+.songItemContainer{
+    margin-top: 34px;
+}
+.songName{
+    font-size: larger;
+    /* font-family: 'Handjet', cursive; */
+    font-family:'Times New Roman', Times, serif;
+
+}
+.songItem img{
+    width : 43px;
+    margin: 0 23px ;
+    border-radius: 30px;
+}
+.timeStamp{
+    /* font-family: 'Raleway', sans-serif; */
+    font-family:'Times New Roman', Times, serif;
+    /* font-size: large; */
+    margin:0 10px;
+    display: flex;
+    align-items: center;
+}
+.timeStamp i{
+    padding-left: 5px;
+    padding-right: 0;
+    cursor: pointer;
+}
+.songInfo{
+    position:absolute;
+    left:16vw;
+}
+.songInfo img{
+    opacity:0;
+    transition: opacity 1s ease-in;
+}
+#songInfoName{
+    font-size: larger;
+    /* font-family: 'Handjet', cursive; */
+    font-family:'Times New Roman', Times, serif;
+}
